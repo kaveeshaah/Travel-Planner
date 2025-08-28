@@ -1,0 +1,53 @@
+
+.welcome-bg {
+	background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1180&q=80');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.welcome-overlay {
+	background: rgba(0, 0, 0, 0.4);
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.welcome-logo {
+	color: #fff;
+	font-size: 2rem;
+	font-weight: bold;
+	letter-spacing: 0.2em;
+	margin-bottom: 2rem;
+}
+
+.welcome-title {
+	color: #fff;
+	font-size: 3rem;
+	font-weight: bold;
+	margin-bottom: 2rem;
+	text-align: center;
+}
+
+.welcome-btn {
+	padding: 1rem 2.5rem;
+	font-size: 1.1rem;
+	font-weight: bold;
+	color: #fff;
+	background: transparent;
+	border: 2px solid #fff;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background 0.2s, color 0.2s;
+}
+.welcome-btn:hover {
+	background: #fff;
+	color: #222;
+}
